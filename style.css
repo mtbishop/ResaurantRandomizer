@@ -1,0 +1,27 @@
+html {
+    background-color: wheat;
+}
+#section1 {
+    border: green;
+    border-style: solid;
+    text-align: center;
+    margin: 3rem;
+}
+h1 {
+    font-size: 60px;
+}
+
+input {
+    font-size: 35px;
+}
+#randomize {
+    padding: 20px;
+    font-size: 30px;
+    border-style: double;
+    color: green;
+    background-color: floralwhite;
+
+}
+#restaurantCount {
+    font-size: 30px;
+}

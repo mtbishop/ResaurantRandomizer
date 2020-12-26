@@ -1,9 +1,9 @@
-var inputText = $('#textInput');
-var forumID = $('#questionEat');
-var restList = $('#restaurantList');
-var restCount = $('#restaurantCount');
+var inputText = document.querySelector ('#textInput');
+var forumID = document.querySelector ('#questionEat');
+var restList = document.querySelector ('#restaurantList');
+var restCount = document.querySelector ('#restaurantCount');
 
-var foodList = [];
+var foodList = ["Mc Donalds", "Burger King"];
 
 function renderFood() {
   restList.innerHTML = '';
